@@ -121,7 +121,3 @@ class GPT2PromptTuningLM(GPTPromptTuningMixin, GPT2LMHeadModel):
 class GPTNeoPromptTuningLM(GPTPromptTuningMixin, GPTNeoForCausalLM):
     def __init__(self, config):
         super().__init__(config)
-
-class GPTJPromptTuningLM(GPTPromptTuningMixin, GPTJForCausalLM):
-    def __init__(self, config):
-        super().__init__(config)
