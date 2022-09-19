@@ -1,4 +1,4 @@
-from transformers import GPT2LMHeadModel, GPTNeoForCausalLM, GPTJForCausalLM
+from transformers import GPT2LMHeadModel, GPTNeoForCausalLM
 from mkultra.soft_prompt import SoftPrompt
 import torch
 import torch.nn as nn
